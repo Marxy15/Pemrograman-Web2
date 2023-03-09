@@ -5,17 +5,19 @@ $produk = $_GET['produk'];
 $jumlah = $_GET['jumlah'];
 
 $harga = 0;
-    if ($produk === 'TV') {
+    if ($produk == 'TV') {
         $harga = 4200000;
-    } else if ($produk === 'Kulkas') {
+    } else if ($produk == 'Kulkas') {
         $harga = 3100000;
-    } else if ($produk === 'Mesin Cuci') {
+    } else if ($produk == 'Mesin Cuci') {
         $harga = 3800000;
     } else {
         echo 'Produk Tidak Valid';
     }
 
     $total_harga = $harga * $jumlah;
-    
+
+
+
 
 ?>

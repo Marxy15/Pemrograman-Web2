@@ -52,7 +52,7 @@ $ar_nilai = [$mahasiswa, $mahasiswa2, $mahasiswa3];
                     <th>UAS</th>
                     <th>TUGAS</th>
                 </tr>
-                <?php foreach($ar_nilai as $nilai){?>
+                <?php foreach($ar_nilai as $nilai)?>
                     <tr>
                         <td><?= $nilai['id']; ?></td>
                         <td><?= $nilai['nama']; ?></td>
@@ -61,7 +61,6 @@ $ar_nilai = [$mahasiswa, $mahasiswa2, $mahasiswa3];
                         <td><?= $nilai['uas']; ?></td>
                         <td><?= $nilai['tugas']; ?></td>
                     </tr>
-                <?php } ?>
             </table>
     </div>    
 </body>
